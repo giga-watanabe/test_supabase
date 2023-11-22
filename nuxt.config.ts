@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     public: {
-      baseUrl: process.env.BASE_URL || 'https://giga-watanabe.github.io/test_supabase/'
+      baseUrl: 'https://giga-watanabe.github.io/test_supabase/' || 'https://giga-watanabe.github.io/test_supabase/'
     }
   },
   ui: {
@@ -27,5 +27,5 @@ export default defineNuxtConfig({
       login: '/',
       callback: '/confirm'
     }
-  },
+  }
 })

@@ -1,0 +1,1 @@
+import{g as a,h as s,i as t,c as n,n as o,o as c,a as r}from"./entry.2d1e73ff.js";const i=r("p",{class:"u-text-black"}," Redirecting... ",-1),u=[i],d=a({__name:"confirm",setup(_){const e=s();return t(e,()=>{if(e.value)return o("/tasks")},{immediate:!0}),(l,m)=>(c(),n("div",null,u))}});export{d as default};
