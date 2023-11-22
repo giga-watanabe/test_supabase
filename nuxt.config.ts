@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   app: {
-    baseURL: '/demo/', // baseURL: '/<repository>/'
+    baseURL: '/test_supabase/', // baseURL: '/<repository>/'
     buildAssetsDir: 'docs' // don't use "_" at the begining of the folder name to avoids nojkill conflict
   },
   modules: [
