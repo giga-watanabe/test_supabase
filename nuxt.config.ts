@@ -1,4 +1,8 @@
 export default defineNuxtConfig({
+  app: {
+    baseURL: '/demo/', // baseURL: '/<repository>/'
+    buildAssetsDir: 'docs' // don't use "_" at the begining of the folder name to avoids nojkill conflict
+  },
   modules: [
     // https://github.com/nuxt-modules/supabase
     '@nuxtjs/supabase',
@@ -23,5 +27,5 @@ export default defineNuxtConfig({
       login: '/',
       callback: '/confirm'
     }
-  }
+  },
 })
